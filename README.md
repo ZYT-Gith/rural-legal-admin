@@ -55,6 +55,10 @@
 ### 案件管理列表
 ![案件管理列表](./screenshots/caseManage.png)
 
+### 案件管理列表
+![案件管理列表增加案件](./screenshots/caseManageAdd.png)
+
+
 ### 个人中心
 ![个人中心](./screenshots/profile.png)
 
@@ -71,15 +75,24 @@
    git clone https://github.com/your-username/rural-legal-admin.git
    cd rural-legal-admin
 安装依赖
+bash
+运行
 npm install
 运行开发服务器
+bash
+运行
 npm run dev
 测试账号：admin 密码：123456
 构建生产版本
+bash
+运行
 npm run build
 预览生产版本
+bash
+运行
 npm run preview
 项目结构
+plaintext
 src/
 ├── api/             # API 请求封装（预留后端对接）
 │   └── user.js      # 用户相关 API
