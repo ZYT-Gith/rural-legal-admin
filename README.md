@@ -6,7 +6,7 @@
 
 乡村法务后台管理系统是一款专为乡村法律服务场景设计的后台管理平台。系统旨在通过数字化手段，提升乡村法务工作的效率和透明度，为基层法律工作者提供便捷的案件管理、用户管理和个人信息维护工具。
 
-系统采用现代化的前端技术栈构建，界面简洁友好，操作流程清晰。适合作为前端实习简历项目。
+系统采用现代化的前端技术栈构建，界面简洁友好，操作流程清晰。
 
 ## 功能特性
 
@@ -72,27 +72,35 @@
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/your-username/rural-legal-admin.git
+   git clone https://github.com/ZYT-Gith/rural-legal-admin.git
    cd rural-legal-admin
-安装依赖
-bash
-运行
-npm install
-运行开发服务器
-bash
-运行
-npm run dev
-测试账号：admin 密码：123456
-构建生产版本
-bash
-运行
-npm run build
-预览生产版本
-bash
-运行
-npm run preview
-项目结构
-plaintext
+   ```
+
+2. **安装依赖**
+   ```bash
+   npm install
+   ```
+
+3. **运行开发服务器**
+   ```bash
+   npm run dev
+   ```
+
+   > 测试账号：`admin`　密码：`123456`
+
+4. **构建生产版本**
+   ```bash
+   npm run build
+   ```
+
+5. **预览生产版本**
+   ```bash
+   npm run preview
+   ```
+
+## 项目结构
+
+```plaintext
 src/
 ├── api/             # API 请求封装（预留后端对接）
 │   └── user.js      # 用户相关 API
@@ -103,7 +111,8 @@ src/
 │   └── user.js      # 用户登录状态、token管理
 ├── views/           # 页面组件
 │   ├── CaseManage.vue  # 案件管理页面（增删改查）
-│   ├── Login.vue        # 登录页面（回车快捷登录）
-│   └── Profile.vue      # 个人中心页面
+│   ├── Login.vue       # 登录页面（回车快捷登录）
+│   └── Profile.vue     # 个人中心页面
 ├── App.vue          # 根组件
 └── main.js          # 入口文件
+```
